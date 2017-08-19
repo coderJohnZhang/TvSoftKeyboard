@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ef111111"
+    android:orientation="vertical"
+    android:paddingBottom="15dip"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    android:paddingTop="15dip">
+
+    <ListView
+        android:id="@+id/short_popwindow_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:divider="@color/transparent"
+        android:listSelector="@drawable/language_selector"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbars="none"
+        android:transcriptMode="alwaysScroll"/>
+</LinearLayout>

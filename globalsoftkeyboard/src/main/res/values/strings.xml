@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">GlobalSoftKeyboard</string>
+
+    <string name="STR_MENU_LANG_ENG">English</string>
+    <string name="STR_MENU_LANG_ARA">عربي</string>
+    <string name="STR_MENU_LANG_FAR">فارسي</string>
+    <string name="STR_MENU_LANG_TUR">Turkish</string>
+    <string name="STR_MENU_LANG_GER">Deutsch</string>
+    <string name="STR_MENU_LANG_FRA">Français</string>
+    <string name="STR_MENU_LANG_SPA">Español</string>
+    <string name="STR_MENU_LANG_ITA">Italiano</string>
+    <string name="STR_MENU_LANG_RUSS">Русский</string>
+    <string name="STR_MENU_LANG_CHI">中文</string>
+
+    <string name="STR_BEYOND_LENGTH">text length beyond</string>
+</resources>

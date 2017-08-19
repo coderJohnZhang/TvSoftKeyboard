@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="menu_language">
+        <item>@string/STR_MENU_LANG_ENG</item>
+        <item>@string/STR_MENU_LANG_ARA</item>
+        <item>@string/STR_MENU_LANG_FAR</item>
+        <item>@string/STR_MENU_LANG_TUR</item>
+        <item>@string/STR_MENU_LANG_GER</item>
+        <item>@string/STR_MENU_LANG_FRA</item>
+        <item>@string/STR_MENU_LANG_SPA</item>
+        <item>@string/STR_MENU_LANG_ITA</item>
+        <item>@string/STR_MENU_LANG_RUSS</item>
+        <item>@string/STR_MENU_LANG_CHI</item>
+    </string-array>
+</resources>

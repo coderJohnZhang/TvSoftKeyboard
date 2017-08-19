@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+          android:id="@+id/keyboard_textview"
+          style="?android:attr/listPopupWindowStyle"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@color/transparent"
+          android:divider="#FFCC00"
+          android:ellipsize="marquee"
+          android:gravity="center"
+          android:listSelector="@mipmap/listlight"
+          android:paddingBottom="5dp"
+          android:paddingTop="5dp"
+          android:singleLine="true"
+          android:textColor="@drawable/text_style_white_blue"
+          android:textSize="25sp"/>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="bind"
+            type="com.tcl.john.tvsoftkeyboard.MainActivity"/>
+    </data>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:padding="20dip">
+
+        <Button
+            android:id="@+id/rename_btn"
+            android:layout_width="400px"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_selector"
+            android:gravity="center"
+            android:onClick="@{bind.rename}"
+            android:text="KeyBoard Test"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+</layout>
